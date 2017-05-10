@@ -10,7 +10,7 @@ function requestHandler1(req, res)
 var server1 = http.createServer(requestHandler1);
 
 server1.listen(PORT1, function() {
-  console.log("Server listening on port " + PORT1);
+  console.log("Server listening on " + PORT1);
 });
 
 //creates a server that listens on port 7500 and responds with an inspirational message about your coding skills.
